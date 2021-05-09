@@ -6,6 +6,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatCardModule} from '@angular/material/card';
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,13 +18,14 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { BarbersComponent } from './barbers/barbers.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    BarbersComponent
+    BarbersComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,8 @@ import { BarbersComponent } from './barbers/barbers.component';
     MatIconModule,
     MatSidenavModule,
     MatGridListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule,
   ],
   
   providers: [],
