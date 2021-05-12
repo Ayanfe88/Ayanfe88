@@ -3,7 +3,7 @@
     padding-top: 15px;
     padding-bottom: 5px;
     font-style: oblique;
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px;
     font-family:"Trebuchet MS";
 }
@@ -11,25 +11,37 @@
 .card-header{
   
   max-width: 200px; 
-  max-height: 100px;
-  margin: 50px;
+  max-height: 300px;
+  margin: 30px;
   border-radius: 20px;
   
 }
 
 .card-header1{
   max-width: 200px; 
-  margin: 20px;
+  margin: 10px;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 .card-header-avatar{
-   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+   background-image: url('./img/Avater.png');
+   background-size: cover;
+}
+.card-header-avatar1{
+  background-image: url('./img/Avatar2.png');
+   background-size: cover;
+}
+.card-header-avatar2{
+  background-image: url('./img/Avatar3.jpg');
    background-size: cover;
 }
 
 .direction{
     display: flex;
-
+    justify-content: left;
+}
+.action-button{
+  display: inline-block;
+  padding: 0px 50px ;
 
 }
