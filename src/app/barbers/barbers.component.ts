@@ -12,4 +12,7 @@ export class BarbersComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // barber= [
+  //   {name: 'Oluwafemi',}
+  // ]
 }
