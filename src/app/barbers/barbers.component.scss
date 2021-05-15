@@ -41,8 +41,10 @@
 .action-button{
   display: inline-block;
   padding: 0px 50px ;
-
 }
+ .justify{
+   margin:30px;
+ }
 
 .book-selection{
   max-width: 700px; 
@@ -67,4 +69,11 @@
 
 .direction-haircut2{
   padding: 15px;
+}
+
+.action-button1{
+  justify-content:center;
+  width: 130px;
+  border: 1px solid;
+  margin: 5px 0px 30px 400px;
 }
